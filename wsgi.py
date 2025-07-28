@@ -4,7 +4,7 @@ import sys
 import os
 
 # Adicionar o diretório do projeto ao path
-project_home = '/home/seuusuario/pythonanywhere_app'  # Substitua 'seuusuario' pelo seu username do PythonAnywhere
+project_home = '/home/Bico12/pythonanywhere_app'  # Substitua 'seuusuario' pelo seu username do PythonAnywhere
 if project_home not in sys.path:
     sys.path = [project_home] + sys.path
 
